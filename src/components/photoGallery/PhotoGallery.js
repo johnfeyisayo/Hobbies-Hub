@@ -46,7 +46,7 @@ const PhotoGallery = () => {
     <>
       <h1 className="photogallery-heading">Photo gallery</h1>
       <h2 className="photogallery-paragraph">
-        Well, you found my Photo Gallery!, this showcases my hobbies and interests.
+        Well, you found my Photo Gallery! this showcases my hobbies and interests.
       </h2>
       <div className={model ? 'model open' : 'model'}>
         <img src={tempImgSrc} />
