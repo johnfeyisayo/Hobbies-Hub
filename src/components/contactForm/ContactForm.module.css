@@ -97,7 +97,7 @@ textarea {
 
   .sent-message {
     border: 1px solid #fff4f4;
-    transition: 4s ease-in;
+    transition: 4s ease-out;
     margin-left: 43%;
   }
 

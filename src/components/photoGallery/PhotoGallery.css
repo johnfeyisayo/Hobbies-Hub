@@ -25,14 +25,6 @@
 }
 
 .gallery {
-    /* border: 1px solid red;
-    display: grid;
-    gap: 10px;
-    grid-template-rows: repeat(3, 29%);
-    grid-template-columns: repeat(3, 32%);
-    justify-content: center;
-    width: 100%; */
-
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -117,6 +109,12 @@
     }    
 }
 
+@media only screen and ( max-width: 572px ) {
+    .photogallery-paragraph {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 480px) {
     .gallery {
         -webkit-column-count: 1;
@@ -125,11 +123,5 @@
         -webkit-column-width: 100%;
         -moz-column-width: 100%;
         column-width: 100%;
-    }
-}
-
-@media only screen and ( max-width: 572px ) {
-    .photogallery-paragraph {
-        font-size: 15px;
     }
 }
